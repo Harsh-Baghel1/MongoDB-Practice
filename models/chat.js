@@ -22,18 +22,5 @@ const userSchema = new mongoose.Schema({
 
 const chats = mongoose.model('chats', userSchema);
 
-let chat1 = new chats({
-    from: "Harsh",
-    to: "Tony",
-    msg: "Hello Tony, How are you?",
-    create_at: new Date()
-});
-
-chat1.save().then((res) =>{
-    console.log(res);
-}).catch((err) =>{
-    console.log(err);
-});
-
 
 module.exports = chats;
