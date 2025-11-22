@@ -18,3 +18,12 @@ body {
     border-radius: 16px;
 
 }
+
+.btn {
+    background-color:white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
